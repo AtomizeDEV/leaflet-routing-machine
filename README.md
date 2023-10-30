@@ -53,16 +53,16 @@ Download [latest release](https://github.com/fleetbase/leaflet-routing-machine/r
 or via npm/yarn:
 
 ```sh
-npm install --save @fleetbase/leaflet-routing-machine
+npm install --save @atomizedev/leaflet-routing-machine
 ```
 
 ```sh
-yarn add @fleetbase/leaflet-routing-machine
+yarn add @atomizedev/leaflet-routing-machine
 ```
 
 ```javascript
 import * as L from 'leaflet';
-import { OSRMv1, Control as RoutingControl } from '@fleetbase/leaflet-routing-machine';
+import { OSRMv1, Control as RoutingControl } from '@atomizedev/leaflet-routing-machine';
 
 const map = new L.Map();
 const serviceUrl = 'https://routing.fleetbase.io';
@@ -77,7 +77,7 @@ You can now customize waypoint markers with `markerOptions` option for the `Rout
 
 ```javascript
 import * as L from 'leaflet';
-import { OSRMv1, Control as RoutingControl } from '@fleetbase/leaflet-routing-machine';
+import { OSRMv1, Control as RoutingControl } from '@atomizedev/leaflet-routing-machine';
 
 const map = new L.Map();
 const serviceUrl = 'https://routing.fleetbase.io';

@@ -1,5 +1,5 @@
 {
-  "name": "@fleetbase/leaflet-routing-machine",
+  "name": "@atomizedev/leaflet-routing-machine",
   "version": "3.2.16",
   "description": "ESM module Routing for Leaflet",
   "directories": {
@@ -38,7 +38,7 @@
     "url": "https://github.com/fleetbase/leaflet-routing-machine/issues"
   },
   "homepage": "https://github.com/fleetbase/leaflet-routing-machine",
-  "main": "./dist/@fleetbase/leaflet-routing-machine.min.js",
+  "main": "./dist/@atomizedev/leaflet-routing-machine.min.js",
   "devDependencies": {
     "@babel/core": "^7.14.0",
     "@babel/plugin-proposal-class-properties": "^7.13.0",
