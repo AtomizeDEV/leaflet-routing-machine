@@ -11,11 +11,11 @@
     "dev": "rollup -c -w",
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish:npm": "npm config set registry https://registry.npmjs.org/ && npm publish",
-    "publish:github": "npm config set '@fleetbase:registry' https://npm.pkg.github.com/ && npm publish"
+    "publish:github": "npm config set '@atomizedev:registry' https://npm.pkg.github.com/ && npm publish"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/fleetbase/leaflet-routing-machine.git"
+    "url": "git://github.com/atomizedev/leaflet-routing-machine.git"
   },
   "keywords": [
     "leaflet",
@@ -35,9 +35,9 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fleetbase/leaflet-routing-machine/issues"
+    "url": "https://github.com/atomizedev/leaflet-routing-machine/issues"
   },
-  "homepage": "https://github.com/fleetbase/leaflet-routing-machine",
+  "homepage": "https://github.com/atomizedev/leaflet-routing-machine",
   "main": "./dist/@atomizedev/leaflet-routing-machine.min.js",
   "devDependencies": {
     "@babel/core": "^7.14.0",
